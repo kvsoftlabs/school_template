@@ -1,0 +1,35 @@
+/*
+Theme Name: School Template
+Theme URI: http://yourwebsite.com/
+Author: UTree Technologies
+Author URI: http://yourwebsite.com/
+Description: A simple WordPress theme with School Template.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: school-template
+*/
+
+html {
+    margin-top: 0px !important;
+}
+@media screen and (max-width: 782px) {
+    html {
+        margin-top: 0px !important;
+    }
+}
+html, body {
+    height: 100%;
+}
+
+.site-wrapper { /* Main page wrapper */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content { /* Main content */
+    flex: 1;
+}
+
+
